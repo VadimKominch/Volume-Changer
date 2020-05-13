@@ -1,0 +1,6 @@
+﻿  duplex.cpp
+duplex.obj : error LNK2019: unresolved external symbol "public: __thiscall RtAudio::RtAudio(enum RtAudio::Api)" (??0RtAudio@@QAE@W4Api@0@@Z) referenced in function _main
+duplex.obj : error LNK2019: unresolved external symbol "public: __thiscall RtAudio::~RtAudio(void)" (??1RtAudio@@QAE@XZ) referenced in function __catch$_main$2
+duplex.obj : error LNK2019: unresolved external symbol "public: void __thiscall RtAudio::openStream(struct RtAudio::StreamParameters *,struct RtAudio::StreamParameters *,unsigned long,unsigned int,unsigned int *,int (__cdecl*)(void *,void *,unsigned int,double,unsigned int,void *),void *,struct RtAudio::StreamOptions *,void (__cdecl*)(enum RtAudioError::Type,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &))" (?openStream@RtAudio@@QAEXPAUStreamParameters@1@0KIPAIP6AHPAX2INI2@Z2PAUStreamOptions@1@P6AXW4Type@RtAudioError@@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z@Z) referenced in function _main
+rtaudio.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+B:\university\Магистратура\2 семестр\Разработка встраиваемых аудиоприложений\volume changer\volume changer\Debug\volume changer.exe : fatal error LNK1120: 3 unresolved externals
